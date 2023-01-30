@@ -1,7 +1,7 @@
 <script>
     import { createEventDispatcher } from "svelte";
 
-    // 
+    // #EventHandler: Dispatch is used to call functions in parent container
     const dispatch = createEventDispatcher();
 
     let showAddBtn = false;

@@ -1134,14 +1134,14 @@ var app = (function () {
     			attr_dev(input, "type", "text");
     			attr_dev(input, "placeholder", "+ Add Item");
     			attr_dev(input, "class", "svelte-1mflsdv");
-    			add_location(input, file$2, 102, 4, 2427);
+    			add_location(input, file$2, 102, 4, 2496);
     			attr_dev(button, "type", "button");
     			attr_dev(button, "class", "svelte-1mflsdv");
     			toggle_class(button, "showAddBtn", /*showAddBtn*/ ctx[0]);
-    			add_location(button, file$2, 103, 4, 2510);
+    			add_location(button, file$2, 103, 4, 2579);
     			attr_dev(form, "onsubmit", "return false");
     			attr_dev(form, "class", "svelte-1mflsdv");
-    			add_location(form, file$2, 101, 0, 2392);
+    			add_location(form, file$2, 101, 0, 2461);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
